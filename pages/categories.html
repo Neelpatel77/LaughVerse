@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JokeWave - Categories</title>
+</head>
+<body>
+    <header>
+        <h1>Joke Categories</h1>
+    </header>
+    <main>
+        <textarea id="joke-text" placeholder="Enter a joke"></textarea>
+        <button id="speak-button">Speak Joke</button>
+        <button id="save-button">Save Joke</button>
+        <ul id="saved-jokes">
+            <!-- Saved jokes will be dynamically added here -->
+        </ul>
+    </main>
+    <footer>
+        &copy; 2023 JokeWave App
+    </footer>
+
+    <!-- Load Firebase and other scripts as ES6 modules -->
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore.js"></script>
+  
+    <script type="module" src="../js/categories.js"></script>
+    <script type="module" src="../api/WebSpeech.js"></script>
+</body>
+</html>

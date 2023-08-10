@@ -1,0 +1,11 @@
+{
+    "name": "JokeWave",
+    "short_name": "Jokes",
+    "description": "Share and enjoy jokes from various categories.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3498db"
+
+  }
+  
